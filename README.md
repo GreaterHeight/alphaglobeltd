@@ -62,7 +62,7 @@ compliant — analytics must not fire before consent is given.
 
 ## Before going live — replace these placeholders
 
-- **Phone, email, address:** currently `0123 456 7890` / `hello@alphaglobe.uk`
+- **Phone, email, address:** currently `(+44) 7552403217` / `info@alphaglobeltd.uk`
   / `20 Westbrook Crescent, Welling, Kent, DA16 1PU` — replace throughout
   `partials/header.html`, `partials/footer.html`, `contact.html`, and the
   JSON-LD schema block in `build.js`/generated `<head>` tags.
