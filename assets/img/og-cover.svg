@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#0E3B35"/>
-  <circle cx="1020" cy="90" r="220" fill="#6B8F71" opacity="0.16"/>
-  <circle cx="140" cy="560" r="160" fill="#D9932E" opacity="0.12"/>
-  <path d="M120 470V330c0-110 90-200 200-200s200 90 200 200v140" stroke="#FBF8F3" stroke-width="10" stroke-linecap="round" fill="none"/>
-  <circle cx="320" cy="300" r="34" fill="#D9932E"/>
-  <text x="120" y="540" font-family="Georgia, serif" font-size="58" fill="#FBF8F3" font-weight="600">Alpha Globe Ltd</text>
-  <text x="120" y="585" font-family="Arial, sans-serif" font-size="26" fill="#CDE6E1">Person-centred supported living &amp; mental health care</text>
-</svg>
