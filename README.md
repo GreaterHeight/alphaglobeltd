@@ -60,9 +60,51 @@ script when `window.__alphaGlobeConsent.analytics === true`, or listen for
 the `consent:updated` event dispatched on `document`. This keeps the site
 compliant — analytics must not fire before consent is given.
 
+## EmailJS setup (contact & referral forms)
+
+Both forms on `contact.html` (General enquiries and Make a referral) are
+wired up to send real emails via [EmailJS](https://www.emailjs.com) — no
+backend server required. Right now they run in **demo mode**: submissions
+show a success message in the browser but aren't actually emailed anywhere,
+until you add your own EmailJS credentials.
+
+**To connect real email delivery:**
+
+1. Create a free account at [emailjs.com](https://www.emailjs.com).
+2. Add an **Email Service** (Gmail, Outlook, or your own SMTP) under
+   *Email Services* — note the **Service ID** it gives you.
+3. Create two **Email Templates** under *Email Templates*, one for each form:
+   - `template_general_enquiry` — use variables `{{name}}`, `{{email}}`,
+     `{{phone}}`, `{{topic}}`, `{{message}}` (these match the form field
+     `name` attributes exactly).
+   - `template_referral` — use variables `{{referrer_name}}`,
+     `{{relationship}}`, `{{organisation}}`, `{{email}}`, `{{phone}}`,
+     `{{funding}}`, `{{message}}`.
+   - You can name the templates anything you like in the EmailJS dashboard
+     as long as you update the matching `data-emailjs-template="..."`
+     attribute on each `<form>` in `contact.html` to the template's real ID.
+4. Find your **Public Key** under *Account → General*.
+5. Open `contact.html` and replace the two placeholder values near the top
+   of the `<head>`:
+   ```html
+   window.ALPHA_GLOBE_EMAILJS = {
+     publicKey: "YOUR_EMAILJS_PUBLIC_KEY",   // ← replace
+     serviceId: "YOUR_EMAILJS_SERVICE_ID"    // ← replace
+   };
+   ```
+   (If you're rebuilding from source rather than editing the shipped HTML
+   directly, this block lives in `assemble.js` as `emailjsExtraHead`.)
+6. Reload the page and submit a test enquiry — you should receive a real
+   email. Until step 5 is done, the form intentionally falls back to a
+   friendly demo message and logs a console warning, so it never looks
+   broken to a visitor even before you've finished setup.
+
+EmailJS's free tier covers a limited number of emails per month — check
+their current pricing if you expect high volume.
+
 ## Before going live — replace these placeholders
 
-- **Phone, email, address:** currently `(+44) 7552403217` / `info@alphaglobeltd.uk`
+- **Phone, email, address:** currently `(+44) 7552403217` / `info@alphaglobeltd.co.uk`
   / `20 Westbrook Crescent, Welling, Kent, DA16 1PU` — replace throughout
   `partials/header.html`, `partials/footer.html`, `contact.html`, and the
   JSON-LD schema block in `build.js`/generated `<head>` tags.
@@ -80,10 +122,10 @@ compliant — analytics must not fire before consent is given.
   consented photography of your homes, staff, and activities for the
   strongest impression — replace the relevant `.arch-frame` background
   styles or add an `<img>` inside them.
-- **Contact form backend:** `assets/js/main.js` currently shows a success
-  message on submit but does not send data anywhere. Connect it to a real
-  endpoint (a serverless function, form service, or CRM webhook) before
-  launch — see the comment in `initForms()`.
+- **EmailJS credentials:** the contact and referral forms are wired to
+  EmailJS but still have placeholder keys — see "EmailJS setup" above for
+  the full walkthrough. Until you add real keys, submissions show a demo
+  success message but aren't actually emailed anywhere.
 - **CQC / regulatory badge:** once registration is confirmed, add your CQC
   rating/badge and registration number to `about.html` and the footer, per
   the recommendation in the earlier website audit.
