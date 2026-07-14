@@ -339,6 +339,10 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .arch-frame.ratio-wide { aspect-ratio: 16/10; }
 .arch-frame { width: 100%; max-width: 100%; }
 .arch-frame iframe { width: 100% !important; max-width: 100%; height: 100%; display: block; border: 0; }
+.arch-frame img {
+  width: 100%; height: 100%; object-fit: cover; object-position: center;
+  display: block; position: relative; z-index: 1;
+}
 
 /* Team */
 .team-card { text-align: center; }
