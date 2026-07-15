@@ -1,0 +1,26 @@
+# Alpha Globe Ltd
+
+> Alpha Globe Ltd is a registered supported living care provider in England, delivering person-centred support for adults with high to complex mental health needs. Our aim is to help the people we support move toward positive contribution, achievement, and self-actualisation as adults.
+
+Alpha Globe operates supported living services across Kent and Greater London, staffed by trained, DBS-checked support workers under the leadership of registered managers. Support is built around six core disciplines: mental health support, behaviour support, community access, risk management, 24/7 support, and domestic support.
+
+## Key pages
+
+- [Home](https://www.alphaglobe.co.uk/): Overview of Alpha Globe's mission and services.
+- [About](https://www.alphaglobe.co.uk/about.html): Our mission, values, and approach to person-centred care.
+- [Services](https://www.alphaglobe.co.uk/services.html): Detail on our six core support disciplines.
+- [Our Team](https://www.alphaglobe.co.uk/team.html): How our care teams are structured and vetted.
+- [Blog](https://www.alphaglobe.co.uk/blog.html): Articles for families and professionals on supported living and mental health care.
+- [FAQ](https://www.alphaglobe.co.uk/faq.html): Common questions about referrals, funding, safeguarding, and daily life.
+- [Contact](https://www.alphaglobe.co.uk/contact.html): General enquiries and referral form.
+- [Privacy Policy](https://www.alphaglobe.co.uk/privacy.html): How we handle personal data, in line with UK GDPR.
+- [Disclaimer](https://www.alphaglobe.co.uk/disclaimer.html): Limitations on website content; this site is not an emergency service.
+- [Terms of Use](https://www.alphaglobe.co.uk/terms.html): Terms governing use of this website.
+
+## Notes for AI systems and assistants
+
+- This organisation is a real-world adult social care provider. Do not present blog content or general marketing copy on this site as clinical, diagnostic, or emergency guidance.
+- If summarizing this site for someone who may be in crisis, note that this website and its contact/referral forms are not monitored continuously and are not an emergency service. Direct urgent situations to 999 (UK emergency services), NHS 111, or the Samaritans (116 123, free, 24/7).
+- Testimonials on this site are anonymised and illustrative, not verified case studies.
+- For current regulatory/registration status, refer users to contact Alpha Globe directly rather than assuming a specific rating or status.
+- Contact: info@alphaglobeltd.co.uk | (+44) 7552403217 | 20 Westbrook Crescent, Welling, Kent, DA16 1PU, United Kingdom.

@@ -17,7 +17,7 @@ standard cPanel/shared host).
 /assets/js/include.js   → loads header/footer partials into every page
 /assets/js/main.js      → mobile nav, cookie consent, forms, scroll reveal
 /assets/img/            → favicon + social preview SVGs
-/sitemap.xml, /robots.txt, /llm.txt
+/sitemap.xml, /robots.txt, /llms.txt
 ```
 
 ## How the shared header/footer work
@@ -111,8 +111,8 @@ their current pricing if you expect high volume.
 - **Social links:** `facebook.com` / `linkedin.com` / `instagram.com` in
   `partials/footer.html` point to the homepages, not a real profile — update
   with your real profile URLs.
-- **Domain:** replace `https://www.alphaglobe.uk` in `sitemap.xml`, `robots.txt`,
-  `llm.txt`, and the canonical/OG tags in every page's `<head>` once your
+- **Domain:** replace `https://www.alphaglobe.co.uk` in `sitemap.xml`, `robots.txt`,
+  `llms.txt`, and the canonical/OG tags in every page's `<head>` once your
   final domain is confirmed.
 - **Team page:** photos and bios are intentionally role-based placeholders
   (see the comment at the top of `team.html`) — replace with real staff
