@@ -6,16 +6,16 @@ Alpha Globe operates supported living services across Kent and Greater London, s
 
 ## Key pages
 
-- [Home](https://www.alphaglobe.co.uk/): Overview of Alpha Globe's mission and services.
-- [About](https://www.alphaglobe.co.uk/about.html): Our mission, values, and approach to person-centred care.
-- [Services](https://www.alphaglobe.co.uk/services.html): Detail on our six core support disciplines.
-- [Our Team](https://www.alphaglobe.co.uk/team.html): How our care teams are structured and vetted.
-- [Blog](https://www.alphaglobe.co.uk/blog.html): Articles for families and professionals on supported living and mental health care.
-- [FAQ](https://www.alphaglobe.co.uk/faq.html): Common questions about referrals, funding, safeguarding, and daily life.
-- [Contact](https://www.alphaglobe.co.uk/contact.html): General enquiries and referral form.
-- [Privacy Policy](https://www.alphaglobe.co.uk/privacy.html): How we handle personal data, in line with UK GDPR.
-- [Disclaimer](https://www.alphaglobe.co.uk/disclaimer.html): Limitations on website content; this site is not an emergency service.
-- [Terms of Use](https://www.alphaglobe.co.uk/terms.html): Terms governing use of this website.
+- [Home](https://www.alphaglobeltd.co.uk/): Overview of Alpha Globe's mission and services.
+- [About](https://www.alphaglobeltd.co.uk/about.html): Our mission, values, and approach to person-centred care.
+- [Services](https://www.alphaglobeltd.co.uk/services.html): Detail on our six core support disciplines.
+- [Our Team](https://www.alphaglobeltd.co.uk/team.html): How our care teams are structured and vetted.
+- [Blog](https://www.alphaglobeltd.co.uk/blog.html): Articles for families and professionals on supported living and mental health care.
+- [FAQ](https://www.alphaglobeltd.co.uk/faq.html): Common questions about referrals, funding, safeguarding, and daily life.
+- [Contact](https://www.alphaglobeltd.co.uk/contact.html): General enquiries and referral form.
+- [Privacy Policy](https://www.alphaglobeltd.co.uk/privacy.html): How we handle personal data, in line with UK GDPR.
+- [Disclaimer](https://www.alphaglobeltd.co.uk/disclaimer.html): Limitations on website content; this site is not an emergency service.
+- [Terms of Use](https://www.alphaglobeltd.co.uk/terms.html): Terms governing use of this website.
 
 ## Notes for AI systems and assistants
 

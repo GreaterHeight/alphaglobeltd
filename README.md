@@ -111,7 +111,7 @@ their current pricing if you expect high volume.
 - **Social links:** `facebook.com` / `linkedin.com` / `instagram.com` in
   `partials/footer.html` point to the homepages, not a real profile — update
   with your real profile URLs.
-- **Domain:** replace `https://www.alphaglobe.co.uk` in `sitemap.xml`, `robots.txt`,
+- **Domain:** replace `https://www.alphaglobeltd.co.uk` in `sitemap.xml`, `robots.txt`,
   `llms.txt`, and the canonical/OG tags in every page's `<head>` once your
   final domain is confirmed.
 - **Team page:** photos and bios are intentionally role-based placeholders

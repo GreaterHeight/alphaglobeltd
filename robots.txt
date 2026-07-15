@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.alphaglobe.co.uk/sitemap.xml
+Sitemap: https://www.alphaglobeltd.co.uk/sitemap.xml
